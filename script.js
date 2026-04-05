@@ -7,4 +7,5 @@ function generateResume() {
 
     document.getElementById("r-skills").innerText =
         document.getElementById("skills").value;
+        console.log("JS feature working");
 }
