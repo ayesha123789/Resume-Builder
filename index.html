@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Resume Builder</h1>
+
+<div class="container">
+
+    <div class="form-section">
+        <input type="text" id="name" placeholder="Enter Name"><br>
+        <input type="text" id="email" placeholder="Enter Email"><br>
+        <textarea id="skills" placeholder="Enter Skills"></textarea><br>
+
+        <button onclick="generateResume()">Generate Resume</button>
+    </div>
+
+    <div class="resume-section">
+        <h2 id="r-name"></h2>
+        <p id="r-email"></p>
+        <p id="r-skills"></p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
